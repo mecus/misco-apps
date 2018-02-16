@@ -1,0 +1,15 @@
+.main-content{
+    position: absolute;
+    margin-top: 98px;
+    display: flex;
+
+}
+.main-content .content{
+    position: relative;
+    top: 0;
+    overflow: hidden;
+}
+.main-content .side{
+    position: relative;
+    top: 0;
+}

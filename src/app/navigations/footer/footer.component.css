@@ -1,0 +1,30 @@
+.footer-container{
+    /* height: 300px; */
+    width: 100%;
+}
+div.footer{
+    background-color: #1D3557;
+    /* height: 260px; */
+    padding: 30px 0;
+}
+div.footer> h2, div.footer > h3, div.footer > h4, div.footer > h5 {
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 200;
+    margin-bottom: 5px;
+}
+div.footer-bottom{
+    background-color: black;
+    height: 40px;
+}
+div.footer-bottom > p{
+    color: #ffffff;
+    text-align: center;
+    font-size: .8em;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 200;
+    line-height: 40px;
+}

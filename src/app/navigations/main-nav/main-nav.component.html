@@ -1,0 +1,61 @@
+<div class="admin-nav">
+  <mat-toolbar class="first-menu">
+      <span id="brand" class="nav-item">
+        <!-- <mat-icon>menu</mat-icon> -->
+        <span class="head"> 
+          <h1 (click)="goHome()" >Miscotech</h1>
+        </span>
+        <span class="slug">
+          <small>Web &</small>
+          <small>Cloud</small>
+        </span>
+      </span>
+      <span id="contact-link" class="nav-item dextop-screen">
+          <span class="link-item">
+              <mat-icon>phone</mat-icon>
+              <small>020987764532</small>
+          </span>
+         <span class="link-item">
+            <mat-icon>email</mat-icon>
+            <small>sales@miscotech.co.uk</small>
+         </span>
+      </span>
+      <span id="right-nav" class="nav-item dextop-screen">
+        <span class="social">
+            <div class="fab-icon">
+                <i class="fab fa-facebook-f"></i>
+            </div>
+            <div class="fab-icon">
+                <i class="fab fa-twitter"></i>
+            </div>
+            <div class="fab-icon">
+                <i class="fab fa-linkedin-in"></i>
+            </div>  
+        </span>
+        <mat-icon>account_circle</mat-icon>
+        <mat-icon>more_vert</mat-icon>
+        <mat-icon (click)="openMenu()" >menu</mat-icon>
+      </span>
+      <span class="mobile-screen">
+          <mat-icon (click)="openMenu()" >menu</mat-icon>
+      </span>
+  </mat-toolbar>
+
+  <!-- Second menu section -->
+  <mat-toolbar class="second-menu card">
+    <span class="nav-item">
+      <a role="button" href="">Cloud</a>
+    </span>
+    <span class="nav-item">
+      <a href="">Web</a>
+    </span>
+    <span class="nav-item">
+      <a href="">Email</a>
+    </span>
+    <span class="nav-item">
+      <a href="">Hosting</a>
+    </span>
+</mat-toolbar>
+</div>
+
+
